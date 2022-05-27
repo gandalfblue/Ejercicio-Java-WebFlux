@@ -54,5 +54,4 @@ public class Part05MergeTest {
 				.expectNext(User.SKYLER, MARIE)
 				.verifyComplete();
 	}
-
 }
