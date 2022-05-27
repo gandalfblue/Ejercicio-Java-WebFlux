@@ -55,5 +55,4 @@ public class Part04TransformTest {
 					new User("SGOODMAN", "SAUL", "GOODMAN"))
 				.verifyComplete();
 	}
-
 }

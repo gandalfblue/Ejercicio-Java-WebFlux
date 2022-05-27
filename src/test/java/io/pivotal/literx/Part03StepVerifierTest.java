@@ -68,4 +68,8 @@ public class Part03StepVerifierTest {
 		workshop.expect3600Elements(() -> Flux.interval(Duration.ofSeconds(1)).take(3600));
 	}
 
+	@Test
+	private void fail() {
+		throw new AssertionError("workshop not implemented");
+	}
 }
